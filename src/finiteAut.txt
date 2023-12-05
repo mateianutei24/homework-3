@@ -1,0 +1,11 @@
+N = {q0,p,r,v,s,k}
+Eps = {a,b}
+Initial = {q0}
+F = {k}
+Transitions
+q0->bk|ap|bv
+v->bs
+s->bv|bk
+p->ar|ak
+r->ap
+End-Transitions
