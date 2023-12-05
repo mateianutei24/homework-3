@@ -5,7 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var finiteAutomatum_1 = __importDefault(require("./classes/finiteAutomatum"));
 function main() {
-    var filePath = 'C:\\Users\\matei\\OneDrive\\Desktop\\lab3\\src\\finiteAut.txt';
+    var filePath = 'C:\\Users\\Anutei Matei\\Desktop\\New folder\\src\\finiteAut.txt';
     var automatum = new finiteAutomatum_1.default([], [], [], [], []);
     automatum.readAutomatumFromFile(filePath);
     automatum.displayAutomatum();

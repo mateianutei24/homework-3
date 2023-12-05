@@ -2,7 +2,7 @@ import FiniteAutomatum from "./classes/finiteAutomatum";
 
 
 function main(){
-    const filePath = 'C:\\Users\\matei\\OneDrive\\Desktop\\lab3\\src\\finiteAut.txt';
+    const filePath = 'C:\\Users\\Anutei Matei\\Desktop\\New folder\\src\\finiteAut.txt';
     
     
     const automatum = new FiniteAutomatum([],[],[],[],[]);

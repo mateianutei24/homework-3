@@ -1,0 +1,16 @@
+letter ::= "A"|"B"|...|"Z"|"a"|...|"z" 
+digit ::= "0" | "1" |...| "9"
+identifier :: =  letter {letter|digit} 
+
+
+
+N ::= 'N' '=' '{' {identifier} '}'
+F ::= 'F' '=' '{' {identifier} '}'
+Initial ::= 'Inital' '='  '{' {identifier} '}'
+Eps ::= 'Eps' '=' '{' {letter|digit} '}'
+
+
+List_Transitions :== 'Transitions' {transition} 'End-Transitions'
+transition = identifier '->' {[letter|digit]identifier'|'}identifier
+
+file :== N F INITIAL Eps List_Transitions
